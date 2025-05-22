@@ -276,12 +276,12 @@ class LivenessDetectionStepOverlayWidgetState
                     width: widget.isFaceDetected ? 32 : 22,
                   )),
         ),
-        const SizedBox(width: 16),
-        Text(
-          widget.isFaceDetected ? 'User Face Found' : 'User Face Not Found...',
-          style:
-              TextStyle(color: widget.isDarkMode ? Colors.white : Colors.black),
-        ),
+      //  const SizedBox(width: 16),
+        // Text(
+        //   widget.isFaceDetected ? 'User Face Found' : 'User Face Not Found...',
+        //   style:
+        //       TextStyle(color: widget.isDarkMode ? Colors.white : Colors.black),
+        // ),
       ],
     );
   }
